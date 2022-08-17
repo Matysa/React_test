@@ -10,8 +10,6 @@ const Header = () => {
         <h1>Někdo Něco</h1>
         <h5 className="text-light">A takto to je</h5>
         <CTA/>
-
-        .
       </div>
     </header>
   )
