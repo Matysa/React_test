@@ -10,6 +10,8 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 
+/* Testovaci ulozeni na git hub a pak se to musím pokusit dostat zpet */
+
 const App = () => {
   return (
     <>
