@@ -16,11 +16,11 @@ const App = () => {
   return (
     <>
       <Header/>
+      <Portfolio/>
       <Nav/>
       <About/>
       <Experience/>
       <Services/>
-      <Portfolio/>
       <Testimonials/>
       <Contact/>
       <Footer/>
