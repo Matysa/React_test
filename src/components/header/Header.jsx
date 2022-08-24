@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Ahoj, já jsem</h5>
-        <h1>Někdo Něco</h1>
-        <h5 className="text-light">A takto to je</h5>
+        <h5>Vypočti si náklady svého</h5>
+        <h1>3D tisku</h1>
+        <h5 className="text-light">Jdeme na to...</h5>
         <CTA/>
       </div>
     </header>

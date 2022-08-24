@@ -1,59 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=League+Gothic&display=swap');
 
 
+.wrap {
+    border: 2px red solid;
+}
 
 .wrap__container {
-    
-    display: flex;
-    justify-content:space-around;
-    gap: 3%;
-
-    border: 1px solid white;
-
+    width: 90%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type=number] {
-    -moz-appearance: textfield;
-  }
-
-input {
-    overflow: hidden;
-    
+.wrap-side {
+    border: 2px red solid;
+    width: 100%;
+    height: 90%;
 }
 
-.input__container {
-    max-height: 5vh;
-    min-height: 5vh;
-    max-width: 30vh;
-    min-width:28vh;
-    display: flex;
-    text-align: center;
-    padding: 0.5rem;
-    height: 100%;
-    position: relative;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.inputs {
-    width: 5rem;
-    font-family: 'DynaPuff', cursive;
-    color: var(--color-white);
-    border: 1px var(--color-primary) solid;
-    background-color: var(--color-bg-variant); 
-    border-radius: 0.5rem;
-    text-indent: 0.5rem;
-}
-
-.wrap__form {
-    border: 1px solid white;
-}
-
-.wrap__result {
-    border: 1px solid white;
+.input-item {
+    display: grid;
+    grid-template-columns: 30% 40%;
 }

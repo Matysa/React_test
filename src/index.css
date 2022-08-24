@@ -110,11 +110,11 @@ img {
   object-fit: cover;
 }
 
-div {
+.wrap__container {
   display: block;
   margin: 2%;
   padding: 1%;
-}
+} 
 
 @media screen and (max-width: 1024px){
   .container{
